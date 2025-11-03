@@ -1,0 +1,10 @@
+let table=document.getElementById("tablee");
+function display(){
+  let data=JSON.parse(localStorage.getItem("name"))
+  data.forEach((element,index) => {
+    document.getElementById("tablee").innerHTML +=`<tr>
+  //         <td>${element.name}</td>
+  //          <td>${element.PhoneNumber}</td>
+  //                         </tr>`
+
+  });

@@ -93,3 +93,17 @@ h3{
     font-size: x-large;
     font-weight: bolder;
 }
+.searchbar{
+    display: flex;
+    justify-content: center;
+}
+.searchbar input{
+    padding: 20px;
+    width: 500px;
+    height: 10px;
+    border-radius: 80px;
+    
+}
+.searchbar input::placeholder{
+    
+}
